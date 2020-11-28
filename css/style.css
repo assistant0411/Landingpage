@@ -195,7 +195,9 @@ nav{
     font-family: 'Sanchez', serif;
     font-size: 1.5em;
     pointer-events: none;
-
+}
+.nav-h2-header{
+    display: none;
 }
 ul{
     list-style: none;
@@ -934,6 +936,19 @@ i.alamat.alamat-3{
         justify-content: space-between;
         position: fixed;
     }
+    .nav-h2-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 10px 0;
+        text-transform: uppercase;
+        font-size: 2em;
+        color: white;
+        font-family: 'Sanchez', serif;
+        font-weight: normal;
+    }
     .ul-wrap{
         width: 200px;
     }
@@ -964,7 +979,7 @@ i.alamat.alamat-3{
         width: 100%;
         padding: 10px 0 ;
         height: 50px;
-        border-top: 1px solid rgba(255, 255, 255, .5);
+        border-top: 1px solid rgba(255, 255, 255, .3);
         border-bottom: 1px solid black;
         display: flex;
         justify-content: center;
