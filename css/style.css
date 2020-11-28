@@ -226,7 +226,7 @@ ul{
     transform: scaleX(1);
 }
 .nav-li:hover a{
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(201, 201, 201, 0.85);
 }
 .nav-a{
     color: white;
@@ -988,7 +988,6 @@ i.alamat.alamat-3{
     }
     .nav-a:hover{
         padding-right: 40px;
-        color: rgba(255, 255, 255, 0.541);
     }
     .open{
         transform: translateX(0);
