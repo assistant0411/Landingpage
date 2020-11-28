@@ -920,7 +920,7 @@ i.alamat.alamat-3{
     h2.footer-h2 {
         display: flex;
         justify-content: center;
-        width: 450px !important;
+        width: 300px !important;
     }
     .footer-social-media{
         grid-row: 3 / 4;
@@ -1004,7 +1004,7 @@ i.alamat.alamat-3{
     }
     .nav-wrap-span{
         display: flex;
-        width: 40px;
+        width: 30px;
         height: 20px;
         flex-direction: column;
         justify-content: space-between;
@@ -1092,11 +1092,42 @@ i.alamat.alamat-3{
 }
 @media only screen and (max-width:520px){
     .project{
-        grid-template-rows: 200px 350px 325px;
+        grid-template-rows: 200px 250px 400px;
         margin-top: 20px;
     }
     .cloud-advantages{
         grid-template-rows: 75px 300px 1fr;
     }
+    .gambar-orang img {
+        width: 100%;
+    }
+    /* fixing bugs */
+    /* yang di bawah ini adalah bug yang right side nya ada sisa ( gambarnya kegedean )  */
+    .about-img-img{
+        width: 100%;
+    }
+
+    /* yang di bawah ini adalah bug yang about nya kelebihan akibat rows 3 terlalu kecil  */
+    .about {
+        grid-template-rows: 180px 325px 300px;
+    }
+}
+@media only screen and (max-width:420px){
+    .btn{
+        width: 135px;
     
+    }
+
+    .about {
+        grid-template-rows: 180px 275px 300px;
+    }
+    .cloud-text{
+        padding: 0 20px;
+    }
+    .cloud-background{
+        padding: 0 1px;
+    }
+    .cloud-advantages{
+        grid-template-rows: 75px 250px 1fr;
+    }
 }
