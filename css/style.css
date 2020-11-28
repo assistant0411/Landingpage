@@ -868,7 +868,7 @@ i.alamat.alamat-3{
     footer{
         grid-template-rows: repeat(3, 1fr) 2fr;
         grid-template-columns: 1fr;
-        height: 85vh;
+        height: 92vh;
         grid-row-gap: 15px;
     }
     .footer-navigasi, .footer-social-media, .footer-alamat, .copyright{
