@@ -920,7 +920,7 @@ i.alamat.alamat-3{
     h2.footer-h2 {
         display: flex;
         justify-content: center;
-        width: 300px;
+        width: 90vw !important;
     }
     .footer-social-media{
         grid-row: 3 / 4;
@@ -1110,6 +1110,11 @@ i.alamat.alamat-3{
     /* yang di bawah ini adalah bug yang about nya kelebihan akibat rows 3 terlalu kecil  */
     .about {
         grid-template-rows: 180px 325px 300px;
+    }
+}
+@media only screen and (max-width:420px){
+    .bungkus-header{
+        height: 100vh !important;
     }
 }
 @media only screen and (max-width:420px){
