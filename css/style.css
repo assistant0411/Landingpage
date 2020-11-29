@@ -920,7 +920,7 @@ i.alamat.alamat-3{
     h2.footer-h2 {
         display: flex;
         justify-content: center;
-        width: 300px !important;
+        width: 300px;
     }
     .footer-social-media{
         grid-row: 3 / 4;
@@ -1114,10 +1114,11 @@ i.alamat.alamat-3{
 }
 @media only screen and (max-width:420px){
     .btn{
-        width: 135px;
-    
+        width: 125px;
     }
-
+    .header-h2{
+        font-size: 2.2em;
+    }
     .about {
         grid-template-rows: 180px 275px 300px;
     }
@@ -1129,5 +1130,32 @@ i.alamat.alamat-3{
     }
     .cloud-advantages{
         grid-template-rows: 75px 250px 1fr;
+    }
+    .cloud-list {
+        font-size: 13px !important;
+        font-weight: bolder;
+    }
+}
+@media only screen and (max-width:320px){
+    .about {
+        grid-template-rows: 180px 275px 390px;
+    }
+    .project{
+        grid-template-rows: 250px 250px 455px;
+    }
+    h2.footer-h2{
+        width: 275px !important
+    }
+    .no-telp{
+        font-size: 15px;
+    }
+    i.alamat{
+        margin: 0 10px 10px 0;
+    }
+    .cloud-advantages {
+        grid-template-rows: 75px 215px 1fr;
+    }
+    .project-blue{
+        font-size: 29px;
     }
 }
