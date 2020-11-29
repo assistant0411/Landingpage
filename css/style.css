@@ -195,6 +195,7 @@ nav{
     font-family: 'Sanchez', serif;
     font-size: 1.5em;
     pointer-events: none;
+    user-select: none;
 }
 .nav-h2-header{
     display: none;
